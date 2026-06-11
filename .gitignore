@@ -1,0 +1,6 @@
+bigquery_key.json
+data/
+__pycache__/
+*.pyc
+.DS_Store
+dashboard/chart*.png
