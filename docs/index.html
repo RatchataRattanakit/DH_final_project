@@ -444,7 +444,7 @@
   <h1>How Xi Jinping Embeds Nationalism into Chinese Citizens Through State Media</h1>
   <div class="subtitle">A computational study of nationalist language in Chinese state media, 2015–2024, using GDELT BigQuery data</div>
   <div class="thesis-block">
-    Xi Jinping did not merely inherit Chinese nationalism — he rewired it. Through state media, the Party fused patriotic identity with consumer behavior, geopolitical grievance, and everyday life. This project measures that fusion computationally.
+    Xi Jinping did not merely inherit Chinese nationalism — he industrialized it. Using state media as a precision instrument, the Party fused centuries-old patriotic sentiment with everyday consumer choices, turning the act of buying a sneaker or boycotting a clothing brand into a measurable expression of political loyalty. This project uses computational methods to document that transformation across a decade of news data.
   </div>
 </header>
 
@@ -453,21 +453,21 @@
     <div class="cover-finding-num">01</div>
     <div class="cover-finding-text">
       <strong>Keyword Surge</strong><br>
-      Nationalist vocabulary in state media grew up to 56× between 2015–2024, with Guochao (国潮) emerging from near-zero after 2019.
+      Five nationalist keyword categories in Chinese state media grew between 2× and 56× from 2015 to 2024 — with Guochao (国潮), the consumer-nationalist signifier, rising from near-zero to a mass-media staple after 2019.
     </div>
   </div>
   <div class="cover-finding-item">
     <div class="cover-finding-num">02</div>
     <div class="cover-finding-text">
       <strong>Era Shift</strong><br>
-      A structural break at 2019 separates early Xi rhetoric from consolidated-era saturation — consumer nationalism grew faster than ideological slogans.
+      A structural break around 2019 separates early Xi ideological rhetoric from a consolidated-era in which consumer nationalism grew far faster than political sloganeering — signaling a shift in the Party's primary mobilization strategy.
     </div>
   </div>
   <div class="cover-finding-item">
     <div class="cover-finding-num">03</div>
     <div class="cover-finding-text">
       <strong>Tone Divergence</strong><br>
-      State media simultaneously turned hostile toward foreign brands and celebratory toward domestic ones — a measurable two-sided framing campaign.
+      State media framed foreign brands as geopolitical threats while simultaneously celebrating domestic brands as national champions — a two-sided tonal campaign that grew more extreme with each organized boycott event.
     </div>
   </div>
 </div>
@@ -479,30 +479,36 @@
 <div class="view-inner">
 <section>
   <div class="section-label">Introduction</div>
-  <h2>Manufacturing Loyalty at Scale</h2>
+  <h2>A Century of Wounds, a Decade of Words</h2>
   <p>
-    Between 2012 and 2024, something changed in the texture of Chinese nationalism. It became louder, more precise, and — most importantly — more commercial. Where the Hu Jintao era treated patriotism as background music, Xi Jinping's era transformed it into a behavioral directive: embedded in brand choices, sporting allegiances, and consumer identity. This shift was not accidental. It was engineered through state media.
+    Chinese nationalism did not begin with Xi Jinping. Its modern roots trace to the May Fourth Movement of 1919, when students and intellectuals poured into Beijing's streets to protest the Treaty of Versailles — which had transferred German-held Chinese territory to Japan rather than returning it to China. That event crystallized a collective identity built around what historians call the "Century of Humiliation" (百年屈辱): the period from the First Opium War (1839) to the founding of the People's Republic (1949), during which Western colonial powers and Japan extracted territorial concessions, imposed unequal treaties, and occupied Chinese cities. This historical wound has never fully closed. It has served as the emotional foundation for Chinese nationalist sentiment ever since — and successive generations of Communist Party leadership have drawn on it to legitimize their authority.
   </p>
   <p>
-    Xi Jinping came to power in November 2012 with a mandate to consolidate Party authority after the relative liberalism of the Hu–Wen era. One of his earliest and most consistent instruments was nationalist rhetoric: the "China Dream" (中国梦) speech at the National Museum in November 2012 framed national rejuvenation as both a collective goal and an individual responsibility. Over the next decade, state media — Xinhua, People's Daily, CGTN, Global Times — became the primary transmission infrastructure for that rhetoric, amplifying, repeating, and contextualizing it in ways designed to make nationalist sentiment feel natural and spontaneous rather than orchestrated.
+    What changes across leaders is not the wound itself, but the instrument used to activate it. Mao Zedong used class struggle and anti-imperialism. Deng Xiaoping used economic development as proof of national restoration. Jiang Zemin introduced formal "patriotic education" (爱国主义教育) campaigns in schools after the 1989 Tiananmen crackdown, turning the curriculum into a vehicle for nationalist sentiment. Hu Jintao (2002–2012) maintained this framework but governed during a period of rapid globalization in which China's deep integration into the world economy created pressure to moderate nationalist rhetoric that might alarm foreign investors and trading partners.
   </p>
   <p>
-    This project applies computational text analysis to the <strong>Global Database of Events, Language, and Tone (GDELT)</strong> — the world's largest open catalog of news media — to track how Chinese state media changed the frequency, context, and emotional framing of nationalist language between 2015 and 2024. We measure five keyword categories across 10 years: patriotism (爱国), nationalism (民族主义), China Dream (中国梦), Guochao consumer nationalism (国潮), and boycott language (抵制). The central question is not whether state media covered nationalism — it always has — but whether the <em>intensity, framing, and commercial specificity</em> of that coverage changed in a measurable way under Xi.
+    Xi Jinping, who assumed power in November 2012, arrived with a different calculus. By 2012, China had already become the world's second-largest economy. The need to reassure foreign investors had diminished; the need to reassert Party authority over an increasingly restless urban middle class had grown. Xi's response was the <strong>China Dream</strong> (中国梦) — a concept he introduced in a speech at the National Museum's "Road to Rejuvenation" exhibit in November 2012. The exhibit itself was explicitly about the Century of Humiliation: it ended with China's rise under Party leadership as the resolution of that century-long injury. The China Dream, in this context, is not simply an optimistic slogan. It is a historically loaded claim: that the Party, under Xi, will complete the national restoration that the humiliation interrupted.
+  </p>
+  <p>
+    To understand how this rhetoric spreads, we need to understand what <strong>state media</strong> means in China. Unlike in democratic societies where the press operates independently of government, China's major media outlets are directly controlled by the Chinese Communist Party's Central Propaganda Department (中央宣传部). Xinhua News Agency is the official state wire service — its reports are mandatory reference points for all domestic media. People's Daily is the Party's official newspaper. Global Times is a commercially-oriented tabloid that serves as the Party's more aggressive nationalist mouthpiece. CGTN (China Global Television Network) is the international broadcasting arm designed to project Chinese narratives abroad. These outlets do not report independently; they receive editorial guidance that aligns their coverage with Party priorities. When the Party decides nationalism is a priority, these outlets amplify it — simultaneously, at scale.
+  </p>
+  <p>
+    This project is a work of <strong>digital history</strong>: it uses computational methods to ask a fundamentally historical question about a decade-long transformation in how a government has communicated with its population. The question is not new — historians and political scientists have long studied Chinese state media narratives. What is new is the scale at which we can now answer it. The GDELT database, accessed through Google BigQuery, contains over 700 million news records from 2015 to 2024. No human reader could analyze that corpus manually. Computational text analysis — counting keyword frequencies, measuring tone scores, tracking changes over time — makes it possible to detect patterns across a decade of state media output that would be invisible to a reader of individual articles. That is the specific contribution of the digital humanities method applied here: not replacing close reading, but enabling a scale of observation that historical analysis alone cannot achieve.
   </p>
 
   <div class="two-col">
     <div class="two-col-block">
       <div class="two-col-label">Research Question</div>
-      Did Xi Jinping's state media apparatus systematically increase the volume, commercial framing, and emotional hostility of nationalist language between 2015 and 2024 — and can this shift be measured computationally?
+      Did Xi Jinping's state media apparatus systematically increase the volume, commercial framing, and emotional hostility of nationalist language between 2015 and 2024 — and can this decade-long transformation be detected and measured through computational analysis of news archives?
     </div>
     <div class="two-col-block">
-      <div class="two-col-label">Theoretical Framework</div>
-      Agenda-setting theory (McCombs &amp; Shaw) and framing theory (Entman) predict that repeated media emphasis on specific topics and frames shapes public salience and emotional response. This project tests whether GDELT tone and frequency data can operationalize those mechanisms.
+      <div class="two-col-label">Why Digital History?</div>
+      Traditional historical methods — archival research, close reading, elite interviews — excel at depth. This project requires breadth: tracking five keywords across 700 million articles over 10 years. Computational methods are not a replacement for historical interpretation; they are the instrument that makes interpretation at this scale possible. The findings are historical; the method is digital.
     </div>
   </div>
 
   <div class="method-box">
-    <strong>Scope:</strong> Analysis covers 2015–2024 (GDELT v2 GKG full coverage begins February 2015). Sources filtered to Chinese state media: Xinhua, People's Daily, China Daily, Global Times, CGTN, and all <code>.cn</code> top-level domains. All keyword counts are normalized to mentions per 100,000 articles to account for the 53% growth in indexed article volume over the period. See <em>Method &amp; Data</em> page for full technical details.
+    <strong>Scope:</strong> Analysis covers 2015–2024 (GDELT v2 full coverage begins February 2015). Sources filtered to Chinese state media outlets: Xinhua, People's Daily, China Daily, Global Times, CGTN, and all <code>.cn</code> top-level domains. Keyword counts are normalized to mentions per 100,000 articles to control for a 53% growth in indexed article volume over the period. See the <em>Method &amp; Data</em> page for full technical details.
   </div>
 </section>
 </div>
@@ -513,12 +519,15 @@
 <div class="view-inner">
 <section>
   <div class="section-label">Method &amp; Data</div>
-  <h2>Data Infrastructure: GDELT &amp; BigQuery</h2>
+  <h2>News as Historical Evidence: GDELT &amp; BigQuery</h2>
   <p>
-    The <strong>Global Database of Events, Language, and Tone (GDELT)</strong> is a real-time open-data platform that monitors broadcast, print, and online news in over 100 languages. Its core product — the <strong>Global Knowledge Graph (GKG)</strong> — parses every indexed article into structured fields: themes, organizations, persons, locations, and a calculated tone score. GDELT v2, launched in 2015, indexes approximately 300,000–500,000 articles per day globally, making it the largest open news archive available for computational research.
+    Historians have long used newspapers as primary sources. A newspaper from 1921 tells us not just what happened, but what editors considered worth reporting, what language they used to describe it, and what emotional register they adopted. The problem with newspapers as a historical source has always been scale: a researcher can read dozens of issues carefully, perhaps hundreds with effort, but not thousands. When the question concerns systematic patterns across an entire media ecosystem over a decade, traditional archival methods reach their limit. This is where computational tools become historically essential.
   </p>
   <p>
-    For this project, GDELT GKG data is accessed via <strong>Google BigQuery</strong> using the public dataset <code>gdelt-bq.gdeltv2.gkg_partitioned</code>. BigQuery allows SQL queries over the full 2015–2024 archive — roughly 700 million GKG records — without downloading raw data. Queries were partitioned by date to stay within free-tier quotas.
+    The <strong>Global Database of Events, Language, and Tone (GDELT)</strong> is a real-time open-data platform that monitors broadcast, print, and online news in over 100 languages. Launched in 2015 in its second version (v2), it indexes approximately 300,000–500,000 articles per day globally and parses each one through machine-learning pipelines into structured fields. Its core product for this project — the <strong>Global Knowledge Graph (GKG)</strong> — records, for every article: which themes are discussed, which organizations are mentioned, which persons appear, and crucially, a calculated emotional tone score. The GKG is, in effect, a machine-readable historical archive of a decade of global news at a scale no human reading program could achieve.
+  </p>
+  <p>
+    For this project, GDELT GKG data is accessed via <strong>Google BigQuery</strong>, a cloud-based SQL analytics platform that hosts the public dataset <code>gdelt-bq.gdeltv2.gkg_partitioned</code>. BigQuery enables structured queries over the full 2015–2024 archive — approximately 700 million GKG records — without downloading raw data. The table is partitioned by date, which means every query filters first by time range, making decade-scale analysis computationally feasible within reasonable cost limits.
   </p>
 
   <div class="db-schema">
@@ -577,13 +586,13 @@
   <div class="section-label">Finding 1</div>
   <h2>The Language of Loyalty: Nationalist Keywords Over Time</h2>
   <p>
-    The most direct computational question is one of frequency: how often did nationalist keywords appear in Chinese state media, and did that change under Xi? The chart below tracks five keyword categories from 2015 to 2024, normalized per 100,000 articles. The answer is unambiguous. Every keyword grew — but they grew at different rates and in response to different events.
+    The five keywords measured in this project are not arbitrary. Each represents a distinct register of nationalist communication, and together they span the full arc from abstract ideology to concrete commercial behavior. Before examining the data, it is worth understanding what each term means in its historical and political context — because the differences between them are precisely what the chart reveals.
   </p>
   <p>
-    China Dream (中国梦) and patriotism (爱国) coverage expanded steadily from 2015 onward, reflecting the institutionalization of Xi's foundational rhetorical program across state media. These are "top-down" keywords — Party leadership controls when and how often they appear. Guochao (国潮) — the "national wave" consumer trend — shows a dramatically different pattern: near-zero coverage through 2017, then explosive growth from 2019 onward, peaking at 496 mentions per 100k articles in 2021 during the H&amp;M boycott. This trajectory is significant: Guochao did not preexist its media coverage. The term was essentially invented and amplified by state media between 2019 and 2021, which means its growth cannot be explained as a reflection of organic public interest.
+    <strong>Patriotism (爱国, ài guó)</strong> — literally "love of country" — is the oldest and most institutionalized of the five terms. The Chinese Communist Party has promoted patriotism as a civic virtue since the 1949 founding, and the term carries official endorsement: "socialist patriotism" (社会主义爱国主义) is written into the national curriculum. State media's steady coverage of patriotism-related themes since 2015 reflects this baseline institutional commitment. <strong>Nationalism (民族主义, mínzú zhǔyì)</strong> carries a slightly different charge: 民族 means ethnic group or nation, and 主义 means ideology, making this term more explicitly ethnic and ideological than 爱国. Historically, the CCP has been ambivalent about 民族主义 — too raw, too hard to control — but its growing presence in state media after 2019 suggests the Party became more willing to activate it as geopolitical tensions with the West deepened.
   </p>
   <p>
-    The gold vertical markers indicate key political and commercial events. Notice that boycott (抵制) spikes sharply in both 2017 (THAAD/Lotte crisis) and 2021 (H&amp;M cotton statement), then drops back — suggesting these are activated campaigns, not sustained sentiment. Nationalism (民族主义) shows a more sustained, slower-building rise that reaches its plateau only after 2021 when geopolitical tensions with the United States and Taiwan became the dominant frame of Chinese foreign policy coverage.
+    <strong>China Dream (中国梦, zhōngguó mèng)</strong> is Xi Jinping's signature contribution to this vocabulary. When he introduced the term at the National Museum in November 2012, the exhibit behind him depicted the Century of Humiliation — colonialism, opium wars, military defeats — followed by the Party's restoration of national dignity. The Dream, therefore, is not optimism in the abstract; it is a historically specific promise to complete a restoration that was interrupted by foreign aggression. Every time state media invokes 中国梦, it activates that particular historical narrative. <strong>Guochao (国潮, guócháo)</strong> — the "national wave" or "national tide" — is the newest and most commercially inflected term. It emerged from fashion and design culture around 2017–2018, describing a movement in which young Chinese consumers embraced Chinese-made products, Chinese streetwear brands, and traditional aesthetic motifs (Tang dynasty imagery, calligraphy, red and gold color palettes) as signs of cultural pride rather than backwardness. Li-Ning's appearance at New York Fashion Week in 2018 wearing "China Li-Ning" in bold lettering is often cited as the symbolic launch moment. But the data shows that Guochao remained a niche cultural descriptor until state media began amplifying it after 2019 — at which point it became a mass-market political category, not just a design trend. <strong>Boycott (抵制, dǐzhì)</strong> is the most behaviorally direct of the five terms: it appears when state media is calling citizens to act, not just feel.
   </p>
 
   <div class="chart-wrap">
@@ -596,8 +605,12 @@
     <div id="chart1"></div>
   </div>
 
+  <p>
+    The chart above makes the trajectory of each keyword visible. China Dream and patriotism grew steadily — these are "always-on" institutional keywords whose increase reflects the routinization of Xi's rhetorical program. Guochao's near-zero baseline through 2017, followed by its near-vertical rise from 2019 onward, is the most analytically telling pattern: it shows a term that did not preexist its media promotion, and whose growth cannot be explained as a reflection of organic public interest. The gold vertical markers indicate three key events — the 2017 THAAD/Lotte crisis, the 2019 NBA controversy, and the 2021 H&amp;M boycott — that produced simultaneous spikes across multiple keyword categories. This simultaneity is the computational signature of coordinated media campaigns: different keywords moving together in response to the same political event.
+  </p>
+
   <div class="finding">
-    <strong>Key finding:</strong> Guochao (国潮) coverage increased 56× between 2015 and 2021 — from 8 to 496 mentions per 100k articles. China Dream coverage grew 3× over the same period. Critically, the sharpest multi-keyword spikes cluster around identifiable state-engineered events (2017, 2019, 2021), not independent keyword trajectories — suggesting coordinated campaign framing rather than organic coverage shifts.
+    <strong>Key finding:</strong> Guochao (国潮) coverage increased 56× between 2015 and 2021 — from 8 to 496 mentions per 100k articles. China Dream coverage grew 3×. Boycott (抵制) spikes sharply around state-organized campaigns and drops back afterward, confirming it as an activated rather than ambient sentiment. All five keywords reached their highest sustained levels after 2019, suggesting a qualitative shift in the Party's media strategy, not just incremental growth.
   </div>
 </section>
 </div>
@@ -608,15 +621,15 @@
 <div class="view-inner">
 <section>
   <div class="section-label">Finding 2</div>
-  <h2>Before and After: Early Xi vs. Consolidated Xi</h2>
+  <h2>Before and After: The 2019 Threshold</h2>
   <p>
-    Why divide the dataset at 2019 specifically? In October 2019, Houston Rockets general manager Daryl Morey tweeted support for Hong Kong protesters. The Chinese Basketball Association suspended cooperation with the NBA within hours. State media ran hundreds of articles within days. This was not the first nationalist media campaign under Xi, but it was the first in which the target was a global commercial brand with direct relevance to Chinese consumer culture — and in which consumer boycott behavior was explicitly framed as an act of patriotism. The 2019 NBA controversy functionally inaugurated a new phase of Xi-era nationalism: the consumer-behavioral phase.
+    The year 2019 was exceptional in Chinese politics in ways that go beyond the NBA controversy. To understand why it functions as a structural dividing line in the data, it is necessary to reconstruct its political context. In March 2018, the National People's Congress voted to abolish presidential term limits — effectively making Xi Jinping ruler for life and completing his consolidation of personal authority over the Party, state, and military. This was the most significant concentration of power in China since Mao Zedong. In 2019, the consequences of that consolidation became visible: Xi's government faced its first serious external challenges simultaneously from multiple directions.
   </p>
   <p>
-    Dividing the dataset at this threshold reveals a structural shift in baseline coverage levels. The early Xi era (2015–2018) shows moderate but rising nationalism — the Party laying rhetorical groundwork. The consolidated era (2019–2024) shows a qualitatively different normal: higher baselines for all keywords, and a fundamentally changed ratio between ideological and consumer-behavioral keywords.
+    The <strong>Hong Kong protests</strong> — which began in June 2019 over an extradition bill and escalated into demands for democratic reform — were the most immediate threat: a Chinese city, on Chinese soil, openly rejecting Party authority. The <strong>US–China trade war</strong>, which had begun with tariffs in 2018, had by 2019 expanded into a technology confrontation over Huawei — framing China's largest tech company as a national security threat to the United States. The <strong>NBA controversy</strong> in October 2019 brought this geopolitical tension directly into the domain of consumer culture: a tweet from a sports executive became an occasion for the state media apparatus to frame commercial disengagement from American brands as an act of national loyalty. These three pressures — political, economic, cultural — converged in a single year and produced a coherent response: a dramatic intensification of nationalist media output across all registers.
   </p>
   <p>
-    The bar chart below compares average normalized frequency per keyword in the two eras. The height of each consolidated-era bar relative to its early-era counterpart measures the scale of that shift. Guochao's bar comparison is the most dramatic, but the pattern holds across all five keywords: the Party's nationalist media investment increased substantially across the board after 2019.
+    Dividing the dataset at this threshold reveals a structural shift in baseline coverage levels. The early Xi era (2015–2018) shows steadily growing nationalism — the Party laying ideological groundwork through China Dream rhetoric and patriotic education. The consolidated era (2019–2024) shows a qualitatively different normal: not just higher volumes, but a fundamentally changed distribution across keyword categories. Consumer nationalism keywords (Guochao, boycott) grow faster than ideological slogans (China Dream, patriotism), suggesting that by 2019 the Party had found commercial identity to be a more effective and durable mobilization lever than political rhetoric alone. Citizens who might disengage from Party speeches can still be reached through their shopping choices.
   </p>
 
   <div class="chart-wrap">
@@ -626,17 +639,17 @@
 
   <div class="two-col" style="margin-top:24px;">
     <div class="two-col-block">
-      <div class="two-col-label">What this means</div>
-      The percentage increases shown above each bar are not just quantitative growth — they represent a qualitative shift in what state media considered normal saturation levels for nationalist content. A 17× increase in Guochao coverage means the term went from specialist vocabulary to mass-media staple.
+      <div class="two-col-label">Reading the bars</div>
+      Each bar pair shows average annual keyword frequency per era. The percentage above each red bar is the growth rate from early to consolidated era. These are not just quantitative increases — they represent a shift in what state media treated as a standard saturation level. A 17× increase in Guochao means the term moved from specialist vocabulary to routine mass-media language.
     </div>
     <div class="two-col-block">
-      <div class="two-col-label">The 2019 Threshold</div>
-      The choice of 2019 as the dividing year is theoretically motivated (NBA controversy + US–China trade war), but the data independently confirms it: a simple linear trend on any keyword shows a clear inflection around 2018–2019, not 2017 or 2021.
+      <div class="two-col-label">Data confirmation</div>
+      The 2019 threshold is theoretically motivated, but the data independently supports it. A trend-break analysis on any of the five keywords shows an inflection point around 2018–2019. The choice is not arbitrary: it is where the data and the historical record converge.
     </div>
   </div>
 
   <div class="finding">
-    <strong>Key finding:</strong> Consumer nationalism (Guochao, boycott) grew disproportionately faster than ideological nationalism (China Dream, patriotism) in the consolidated era — Guochao increased 17× vs. patriotism's 1.9×. By 2019, the Party had shifted its primary activation mechanism from political rhetoric to commercial identity.
+    <strong>Key finding:</strong> Consumer nationalism (Guochao, boycott) grew 17× and 2.3× respectively in the consolidated era versus the early era. Ideological nationalism (China Dream, patriotism) grew 1.9× and 2.1×. The disproportionate growth of commercial-behavioral keywords over political-ideological ones reveals a strategic shift: the Party increasingly embedded nationalism in everyday consumption rather than relying on political rhetoric alone.
   </div>
 </section>
 </div>
@@ -647,15 +660,18 @@
 <div class="view-inner">
 <section>
   <div class="section-label">Finding 3</div>
-  <h2>Buying Chinese, Boycotting Foreign: Brand Tone Divergence</h2>
+  <h2>Buying Chinese, Boycotting Foreign: The Tonal Architecture of Consumer Nationalism</h2>
   <p>
-    The most theoretically significant finding of this project is not about volume — it is about framing. One of the most distinctive features of Xi-era nationalism is how thoroughly state media fused patriotic identity with consumer behavior through a coordinated two-sided media strategy: simultaneously making foreign brands feel <em>threatening</em> (hostile tone) while making domestic brands feel <em>triumphant</em> (celebratory tone). This divergence is not just ideological — it is commercially consequential. It provides citizens with a ready-made framework in which every purchase decision carries patriotic significance.
+    The most theoretically significant finding of this project is not about the volume of nationalist language — it is about its <em>emotional architecture</em>. Xi-era state media did not simply discuss nationalism more frequently; it constructed a specific emotional landscape in which foreign commercial brands were framed as geopolitical threats while domestic brands were celebrated as national champions. This is a two-sided tonal strategy, and its systematic nature is only visible when you can measure the sentiment of tens of thousands of articles simultaneously — exactly what the GDELT tone score enables.
   </p>
   <p>
-    The GDELT tone score — position [0] of the V2Tone field, on a scale of roughly –10 to +10 in the news domain — provides a way to measure this. The chart below tracks average tone for Chinese state media articles that mention <strong>foreign brands</strong> (H&amp;M, Nike, Lotte, NBA) versus articles mentioning <strong>domestic brands</strong> (Li-Ning, Huawei, ANTA, BYD). In 2015, the gap was small: both categories were mildly negative, reflecting the default skeptical framing of news coverage. By 2024, they had diverged by over 5.9 tone points — a gap that, in GDELT's scale, is larger than the difference between neutral coverage and war reporting.
+    The <strong>GDELT V2Tone score</strong> is a continuous valence metric calculated by applying a computational sentiment lexicon to each indexed article. Position [0] gives the article's overall tone on a scale of approximately –10 (extremely hostile or threatening) to +10 (extremely celebratory or optimistic). In practice, most news coverage sits between –5 and +3 — news is structurally more negative than positive because conflicts are more newsworthy than stability. A score of 0 is genuinely neutral; anything below –3 represents sustained hostile framing; above +2, sustained celebratory framing. Given this scale, the divergence between foreign and domestic brand coverage — growing from a gap of –1.4 points in 2015 to –5.9 points in 2021 — represents a large-scale, politically meaningful reorientation of how state media described commercial reality to its readers.
   </p>
   <p>
-    Three events stand out as inflection points. In <strong>2017</strong>, South Korean retail chain Lotte was targeted for providing land for the THAAD missile defense system; state media ran hundreds of articles framing Lotte as a hostile geopolitical actor, and the chain was eventually forced to close all 99 stores in China. In <strong>2019</strong>, the NBA controversy demonstrated that the same framing could be applied to American sports culture. In <strong>2021</strong>, H&amp;M's statement about Xinjiang cotton triggered the most intense and precisely coordinated campaign yet — and simultaneously produced the biggest surge in positive domestic brand coverage, as Li-Ning and ANTA were explicitly positioned as patriotic alternatives.
+    Three events drove the sharpest inflections. The first was the <strong>THAAD crisis (2016–2017)</strong>. THAAD — Terminal High Altitude Area Defense — is a US Army anti-ballistic missile system deployed in South Korea to intercept North Korean missiles. China objected that the system's powerful radar could also monitor Chinese military movements across its own territory. When South Korean retail conglomerate Lotte Group provided land for the installation site, Chinese state media transformed a logistical real estate transaction into a geopolitical act of betrayal. Regulatory inspections on ostensible fire-safety grounds shut down Lotte's Chinese supermarkets. All 99 of its Chinese stores eventually closed. The episode established a template: commercial presence could be weaponized as a tool of geopolitical coercion, and state media was the mechanism for mobilizing public support for that coercion.
+  </p>
+  <p>
+    The second event — the <strong>2019 NBA controversy</strong> — demonstrated that the template could be applied to any foreign commercial brand, regardless of its actual political activity. The third and most precisely engineered event was the <strong>2021 H&amp;M boycott</strong>. In March 2021, the H&amp;M website was found to contain a 2020 statement expressing concern about reports of forced labor in Xinjiang's cotton industry. Xinjiang is China's largest cotton-producing region and home to the Uyghur minority population; international human rights organizations had documented what they described as mass detention camps and forced labor programs targeting Uyghurs. The Chinese government categorically denied these characterizations, framing them as Western interference in Chinese internal affairs. When the H&amp;M statement circulated on Chinese social media, state media mounted a coordinated response: H&amp;M was removed from Chinese e-commerce platforms, the hashtag "I support Xinjiang cotton" (我支持新疆棉花) was amplified across Weibo, and Li-Ning and ANTA — Chinese sportswear brands that had committed to Xinjiang cotton — were simultaneously promoted as patriotic alternatives. The synchronization of state media, e-commerce platforms, and social media amplification was not coincidental; it reflected a mature, reliable infrastructure for consumer-nationalist mobilization that had been refined over the preceding four years.
   </p>
 
   <div class="chart-wrap">
@@ -664,8 +680,12 @@
     <div id="chart3"></div>
   </div>
 
+  <p>
+    The chart above reveals a pattern that individual article reading could not: after each boycott event, the foreign brand tone score does not recover to its pre-campaign level — it settles at a new, more hostile baseline. The domestic brand tone rises with each campaign and stabilizes higher. The divergence is not a series of spikes and recoveries; it is a ratcheting escalation over a decade. By 2024, the tonal distance between how state media discusses foreign versus domestic commercial brands has become a stable structural feature of China's media landscape — a durable emotional architecture in which consumption choices carry nationalist valence.
+  </p>
+
   <div class="finding">
-    <strong>Key finding:</strong> The tone gap between foreign and domestic brand coverage grew from –1.4 points in 2015 to –5.9 points in 2021, driven by three identifiable state-organized boycott campaigns. This is not organic sentiment — it is a measurable media construction in which the Party used commercial framing to translate geopolitical grievance into consumer behavior.
+    <strong>Key finding:</strong> The GDELT tone gap between foreign brand coverage (H&amp;M, Nike, Lotte, NBA) and domestic brand coverage (Li-Ning, Huawei, ANTA, BYD) in Chinese state media grew from –1.4 points in 2015 to –5.9 points in 2021, driven by three identifiable state-organized boycott campaigns. Each campaign left a permanent residue — a ratcheted floor for foreign brand hostility and a raised ceiling for domestic brand celebration — confirming that these were not sentiment fluctuations but deliberate and durable framing operations.
   </div>
 </section>
 </div>
@@ -676,30 +696,33 @@
 <div class="view-inner">
 <section>
   <div class="section-label">Conclusion</div>
-  <h2>Nationalism as a Behavioral Norm</h2>
+  <h2>What Computation Reveals About History</h2>
   <p>
-    What the data reveals, across three measurements, is a consistent and mutually reinforcing pattern: Chinese state media under Xi Jinping did not merely report on nationalism — it manufactured the conditions for it. The three findings converge on a single argument: over the period 2015–2024, the Party systematically expanded the volume of nationalist language, shifted its primary register from political ideology to consumer identity, and fused patriotic sentiment with commercial behavior through coordinated brand-framing campaigns. Each of these shifts is independently measurable; together they describe a coherent strategy.
+    The three findings of this project converge on a single historical argument: between 2015 and 2024, Chinese state media under Xi Jinping did not merely report on nationalism — it systematically manufactured the social conditions for it. The Party expanded the volume of nationalist vocabulary, shifted its primary register from abstract political ideology to concrete consumer behavior, and constructed a durable emotional landscape in which foreign brands were framed as geopolitical threats and domestic brands as national champions. These three shifts are independently measurable, and together they describe a coherent, decade-long strategy for embedding patriotic sentiment into everyday commercial life.
   </p>
   <p>
-    The 国潮 (Guochao) movement is the clearest case study. Before 2019, the term existed as a minor cultural descriptor. State media coverage transformed it into a mass-market identity marker linked to patriotic consumption — and that transformation is visible in the GDELT data as a near-vertical spike in keyword frequency following the 2021 H&amp;M boycott. A consumer trend that did not preexist its media coverage peaked precisely when state media invested most heavily in it, then stabilized at a permanently elevated baseline. Buying a Li-Ning sneaker instead of Nike became, in this media construction, an act of patriotism — measurable, trackable, and reproducible on demand.
+    The Guochao (国潮) phenomenon encapsulates this strategy most clearly. As a cultural concept, Guochao draws on a genuine historical reservoir of pride — China's artistic traditions, textile craftsmanship, the aesthetic legacy of dynasties that predated Western contact. As a political instrument, it translates that cultural pride into consumer behavior that is legible to the state: buying Chinese-made goods, wearing brands that use Xinjiang cotton, choosing domestic streaming services over foreign ones. The genius of the strategy, visible in the data, is that it feels voluntary. Consumers experience themselves as expressing cultural pride, not following a Party directive. But the trajectory of Guochao in state media — from near-zero mentions in 2015 to a mass-media staple by 2021 — shows that the feeling of organic cultural pride was itself a product of years of systematic media amplification.
   </p>
   <p>
-    The tone divergence finding adds an important dimension. The gap between how state media framed foreign brands versus domestic ones grew monotonically across the decade, interrupted only by brief post-boycott normalization periods. This is not sentiment fluctuation — it is a stable, institutionalized framing difference. State media has constructed a durable emotional landscape in which foreign commercial presence registers as threat and domestic commercial presence registers as achievement.
+    This is where the <strong>digital history</strong> contribution of this project becomes most concrete. A historian reading individual articles from People's Daily between 2015 and 2021 could observe Guochao being promoted. A media studies scholar analyzing specific boycott campaigns could document their organization. But neither method, applied to individual cases, could reveal the structural pattern: that across 700 million news records, over a decade, the entire tonal and thematic landscape of Chinese state media shifted in a specific, measurable direction. The pattern is only visible at scale, and scale requires computation. The GDELT database, accessed through BigQuery, functions here as a historical archive in the way that no traditional archive could — not because it contains deeper sources, but because it enables a breadth of observation that reveals what depth reading alone cannot show: that what happened in any single article or campaign was not incidental, but part of a systematic transformation.
+  </p>
+  <p>
+    The historical significance of that transformation should not be underestimated. Chinese nationalism has existed as a political force for over a century. What Xi Jinping's era appears to have accomplished — and what this project measures computationally — is its domestication: the conversion of a political sentiment with unpredictable, sometimes destabilizing energy into a routinized, commercially embedded behavioral norm. When nationalism is attached to sneaker brands and cotton sourcing, it becomes something citizens can practice daily, without mass mobilization events or formal political participation. It becomes, in a word, sustainable. Whether that sustainability makes it more or less dangerous to the international order is a question beyond the scope of this project. But the fact that the transformation happened, and that it can be measured, is what this project demonstrates.
   </p>
 
   <div class="two-col" style="margin-top:32px;">
     <div class="two-col-block">
       <div class="two-col-label">Limitations</div>
-      GDELT's theme detection is algorithmic and imperfect. The dataset begins in 2015, preventing true pre-Xi comparison. Tone scores are document-level averages that cannot isolate the sentiment directed at specific terms or brands within an article. These findings describe patterns, not causation.
+      GDELT's theme detection is algorithmic and may miss indirect or metaphorical nationalist language. The dataset begins in 2015, preventing comparison with the Hu Jintao era (2002–2012). Tone scores are document-level averages; they cannot isolate sentiment toward specific brands or terms within a mixed article. These findings describe patterns and correlations — they do not establish causation.
     </div>
     <div class="two-col-block">
       <div class="two-col-label">Future Research</div>
-      Expanding the source filter to include social media reactions (Weibo, Douyin) would allow testing whether state media framing translates to public sentiment. Adding a control corpus of non-Chinese media would allow isolating China-specific effects from global news trends.
+      Comparing GDELT state media data with Weibo and Douyin public sentiment data would allow testing whether media framing translated into measurable public behavior. A parallel analysis of non-Chinese media on the same events would establish a baseline for what "normal" coverage of these incidents looks like, isolating the China-specific framing effect.
     </div>
   </div>
 
   <div class="finding" style="margin-top:32px;">
-    <strong>Central contribution:</strong> GDELT provides a longitudinal record of what state media talked about, when, and with what emotional valence. When combined with event annotation, it makes it possible to distinguish <em>manufactured</em> from <em>organic</em> sentiment — not through speculation, but through measurement. That methodological claim is what this project demonstrates.
+    <strong>The digital history claim:</strong> Traditional archival methods reveal what individual sources say. Computational analysis of 700 million records reveals what a media system consistently did — at a scale, and over a time horizon, that no reader could access alone. The contribution of this project is not just the findings about Xi-era nationalism; it is the demonstration that news archives, queried computationally, can serve as evidence for historical arguments about systemic media behavior.
   </div>
 </section>
 
